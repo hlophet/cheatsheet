@@ -1,0 +1,121 @@
+
+* {
+    background-color: lavender;
+    font-family: 'Trebuchet MS', sans-serif;
+    line-height: 1.8;
+}
+
+/* header styling */
+
+header h1, header p, a, footer p {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+header {
+    background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+    display: block;
+    padding: 200px 0;
+    text-align: center;
+}
+
+header h1 {
+    text-transform: uppercase;
+    font-size: 80px;
+    line-height: 1.1;
+}
+
+header h1, a {
+    font-weight: bold;
+}
+
+/* header,header links and footer color */
+
+header h1, a, footer p {
+    color: deepskyblue;
+}
+
+header h1, header p {
+    padding: 0;
+    margin: 0;
+}
+
+header p {
+    color: white;
+    font-style: italic;
+}
+
+/* header links styling */
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+a:hover {
+    color: orange;
+}
+
+/* centering the main section's content */
+
+main {
+    width: 800px;
+    margin: 0 auto;
+    display: block; 
+    text-align: justify;
+}
+
+/* sectional + table heading color */
+
+h2 , thead th {
+    color: blue;
+}
+
+/* table heading styling */
+
+thead th {
+    height: 40px;
+}
+
+/* footer styling */
+
+footer p {
+    background-color: darkblue;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12px;
+    display: block;
+    padding: 20px 0;
+}
+
+/* tag styling */
+
+span {
+    font-family: monospace;
+    background-color: deepskyblue;
+}
+
+/* margin management for the different section for readability */
+
+#html-sec, #css-sec, #desc-sec {
+    margin: 70px 0;
+}
+
+/* scroll-to-top button styling */
+
+#scrollToTopBtn{
+    position: fixed;
+    bottom: 30px;
+    right: 50px;
+    width: 40px;
+    height: 40px;
+    background-color: deepskyblue;
+    border: none;
+    border-radius: 15%;
+}
+
+#scrollToTopBtn:hover {
+    background-color: #ff4747;
+    transform: translateY(-5px);
+    color: white;
+    height: 50px;
+}
